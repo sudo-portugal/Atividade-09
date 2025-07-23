@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório Flexbox - Eduardo Portugal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f4f4f4;  
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        img {
+            max-width: 600px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Relatório de Treinamento - Flexbox</h1>
+
+    <section>
+        <h2>Nome completo</h2>
+        <p>Eduardo Portugal Souza Rocha</p>
+    </section>
+
+    <section>
+        <h2>Jogos Escolhidos</h2>
+        <ul>
+            <li><strong>Flexbox Zombies</strong> - <a href="https://mastery.games/flexboxzombies/" target="_blank">https://mastery.games/flexboxzombies/</a></li>
+            <li><strong>Flexbox Froggy</strong> - <a href="https://flexboxfroggy.com/" target="_blank">https://flexboxfroggy.com/</a></li>
+        </ul>
+        <p>Escolhi o "Flexbox Zombies" por trazer uma narrativa divertida enquanto ensina, o que ajuda na retenção do conteúdo. Já o "Flexbox Froggy" foi escolhido por sua leveza e feedbacks visuais diretos, o que facilita muito o aprendizado visual de como os elementos se comportam.</p>
+    </section>
+
+    <section>
+        <h2>Registro de Níveis</h2>
+
+
+        <h3>Flexbox Zombies</h3>
+
+
+        <p><strong>Nível 6:</strong> Nunca tinha usado o flex-end e esse foi o que me fez entender melhor.</p>
+        <img src="/imgs/zombie-nivel6.png" alt="Flexbox Zombies - Nível 6">
+        
+        <p><strong>Nível 7:</strong> Este nível foi baludo demais, tá doido, o justify-content é massa demais.</p>
+        <img src="/imgs/zombie-nivel7.png" alt="Flexbox Zombies - Nível 7">
+        
+        <p><strong>Nível 10:</strong> Demorei pegar o bagulho dessa, mas depois foi massa.</p>
+        <img src="/imgs/zombie-nivel10.png" alt="Flexbox Zombies - Nível 10">
+
+
+        <h3>Flexbox Froggy</h3>
+
+
+        <p><strong>Nível 5:</strong> Flex-end dnv que eu aprendi no outro game.</p>
+        <img src="imgs/froggy-nivel5.png" alt="Flexbox Froggy - Nível 5">
+        
+        <p><strong>Nível 9:</strong> A introdução do `align-self` me confundiu com relação ao `align-items`, pois afeta apenas um item.</p>
+        <img src="imgs/froggy-nivel9.png" alt="Flexbox Froggy - Nível 9">
+        
+        <p><strong>Nível 12:</strong> A soma de várias propriedades como `justify-content`, `align-items` e `flex-direction` exigiu atenção redobrada.</p>
+        <img src="imgs/froggy-nivel12.png" alt="Flexbox Froggy - Nível 12">
+    </section>
+
+    <section>
+        <h2>Reflexão e Aplicação Prática</h2>
+
+        <h3>Propriedades CSS utilizadas:</h3>
+        <ul>
+            <li><strong>display: flex;</strong> – transforma o container em flexível.</li>
+            <li><strong>flex-direction</strong> – define a direção do eixo principal (row ou column).</li>
+            <li><strong>justify-content</strong> – alinha os itens no eixo principal.</li>
+            <li><strong>align-items</strong> – alinha os itens no eixo cruzado.</li>
+            <li><strong>align-self</strong> – alinha individualmente um item no eixo cruzado.</li>
+            <li><strong>order</strong> – altera a ordem visual dos itens.</li>
+        </ul>
+
+        <h3>Aplicação prática:</h3>
+        <p>Um caso prático em que aplicaria o Flexbox seria em um menu de navegação horizontal com links igualmente espaçados. Usaria `display: flex` e `justify-content: space-between` para distribuir os itens, e `align-items: center` para centralizar verticalmente. Isso garantiria que o menu seja responsivo e bem alinhado em qualquer dispositivo.</p>
+    </section>
+
+</body>
+</html>
